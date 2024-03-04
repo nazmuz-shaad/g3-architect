@@ -1,8 +1,93 @@
-/* Header Section  */
-
-*{
-  margin: 0px;
-  font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+
+/* Global styles */
+* {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* Consider removing if unnecessary */
+  font-style: normal;
+  /* Consider removing if unnecessary */
+}
+
+
+/* shared elements */
+.description-gray{
+  color:#727272;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.main-button{
+  color: white;
+  background-color:#FF900E ;
+  width: 180px;
+ height: 64px;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Header Section  */
+header{
+  background-color: #FFF4E7;
+}
+/* navigation section  */
+.logo{
+  font-size: 2.5rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 228px;
+}
+
+nav > ul{
+  display: flex;
+}
+
+nav li{
+ list-style: none;
+ padding-right: 30px;
+}
+
+/* banner section  */
+.banner-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 75% ;
+margin: 100px auto 0px auto;
+padding-bottom: 25px;
+/* border: #2f0be2 3px solid; */
+}
+
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  text-align: center;
+  padding-bottom: 32px;
+  align-items: center;
+}
+.banner-title{
+  font-size: 3.5rem;
+  padding-bottom: 15px;
+ 
+}
+
+.banner-image{
+  width: 100%;
+}
+
+.banner-text>.main-button{
+  margin-top: 32px;
+}
+
