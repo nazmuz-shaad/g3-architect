@@ -11,65 +11,65 @@
 * {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  /* Consider removing if unnecessary */
-  font-style: normal;
-  /* Consider removing if unnecessary */
+
 }
 
 
 /* shared elements */
-.description-gray{
-  color:#727272;
+.description-gray {
+  color: #727272;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.main-button{
+.main-button {
   color: white;
-  background-color:#FF900E ;
+  background-color: #FF900E;
   width: 180px;
- height: 64px;
+  height: 64px;
   font-size: 1.25rem;
   border-radius: 10px;
   border: none;
 }
 
 /* Header Section  */
-header{
+header {
   background-color: #FFF4E7;
 }
+
 /* navigation section  */
-.logo{
-  font-size: 2.5rem;
+.logo {
+  font-size: 2.8rem;
 }
-nav{
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 50px 228px;
 }
 
-nav > ul{
+nav>ul {
   display: flex;
 }
 
-nav li{
- list-style: none;
- padding-right: 30px;
+nav li {
+  list-style: none;
+  padding-right: 30px;
 }
 
 /* banner section  */
-.banner-container{
-display: flex;
-flex-direction: column;
-align-items: center;
-max-width: 75% ;
-margin: 100px auto 0px auto;
-padding-bottom: 25px;
-/* border: #2f0be2 3px solid; */
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75%;
+  margin: 100px auto 0px auto;
+  padding-bottom: 25px;
+  /* border: #2f0be2 3px solid; */
 }
 
-.banner-text{
+.banner-text {
   display: flex;
   flex-direction: column;
   max-width: 800px;
@@ -77,17 +77,189 @@ padding-bottom: 25px;
   padding-bottom: 32px;
   align-items: center;
 }
-.banner-title{
-  font-size: 3.5rem;
+
+.banner-title {
+  font-size: 4rem;
   padding-bottom: 15px;
- 
+
 }
 
-.banner-image{
+.banner-image {
   width: 100%;
 }
 
-.banner-text>.main-button{
+.banner-text>.main-button {
   margin-top: 32px;
 }
 
+
+/* feature section  */
+
+main {
+  max-width: 1440px;
+  margin: 70px auto;
+
+}
+
+.feature-container {
+  display: flex;
+
+
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+
+
+
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 70px;
+}
+
+.feature-title {
+  font-size: 45px;
+  max-width: 390px;
+}
+
+#quick-list {
+  color: #727272;
+  font-weight: 500;
+}
+
+#Features {
+  color: #FF900E;
+}
+
+.feature-text>.description-gray {
+  margin: 24px 0 32px 0;
+}
+
+/* Enjoy section  */
+
+.text-header>.feature-title {
+  border-left: #FF900E 5px solid;
+  padding-left: 21px;
+  max-width: 420px;
+
+  margin-bottom: 20px;
+}
+
+.enjoy-container {
+  display: flex;
+  margin-top: 130px;
+  gap: 100px;
+}
+
+.text-description {
+  margin-top: 30px;
+}
+
+.card {
+  padding: 35px;
+  margin-bottom: 30px;
+  box-shadow: -1px 7px 35px -1px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.description-title {
+  font-size: 20px;
+}
+
+.engineer {
+  margin-left: 74px;
+}
+
+.experience {
+  background-color: #FF900E;
+  padding: 45px;
+  max-width: 342px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  position: relative;
+  bottom: 140px;
+}
+
+.enjoy-title {
+  color: white;
+  font-size: 4rem;
+
+}
+
+.experience-paragraph {
+  font-size: 25px;
+  color: white;
+}
+
+.fact-header>.description-gray {
+  max-width: 542px;
+  margin-top: 24px;
+}
+
+.fact-logo-container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.fact-logo {
+  display: flex;
+  flex-direction: column;
+  border: #FF900E 3px solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 241px;
+  height: 241px;
+
+}
+
+.fact-logo>img {
+  max-width: 45px;
+}
+
+.card-description {
+  color: #727272;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto 60px auto;
+  align-items: center;
+  ma
+}
+
+.logo-text>.feature-title {
+  margin-bottom: 22px;
+}
+
+.sponser-logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-text {
+  background-color: #FFF4E7;
+  padding: 39px;
+  margin: 130px 10px 100px 10%;
+
+}
+
+.footer-paragraph {
+  color: #424242;
+  text-align: center;
+
+}
